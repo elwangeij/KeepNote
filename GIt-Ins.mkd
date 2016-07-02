@@ -2,10 +2,10 @@
 ##1) Get started
 |功能|代码|
 |:------------------|:-----------------------------------------------------|
-获取仓库:  |git clone https://github.com/elwangeij/KeepNote.git
 设置git:|git config --global user.name "yourname"
 &#160;|git config --global user.email youremail
 |创建本地git存储: |              git init
+获取仓库:  |git clone https://github.com/elwangeij/KeepNote.git
 
 ##2)远程仓库相关命令
 |功能|代码|
