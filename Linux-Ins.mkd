@@ -1,0 +1,22 @@
+#Linux系统指令
+
+##1) 显卡相关
+**查看cuda设备**
+```
+cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+./deviceQuery
+```
+
+**查看实时显卡信息**
+```
+watch -n 1 nvidia-smi //一秒钟更新一次
+```
+
+##2)文档查看
+**图片**
+eog [filename]  
+**pdf文件**
+evince[filename]
+
+##3)窗口操作指令
+关闭当前窗口: ctrl+w

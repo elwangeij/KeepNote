@@ -14,12 +14,20 @@
 添加远程仓库:|git remote add [name][url]
 删除远程仓库:|git remote rm[name]
 
-##3)文件修改
+##3)本地文件修改
 |功能|代码|
 |:------------------|:-----------------------------------------------------|
-增加文件:|git add . \\\push add [[filename]
+增加文件暂存区:|git add . \\\git add [filename]
 强制删除文件:|git rm [filename] -f
 查看当前git状态:|git status
 提交修改状态:|git commit -m "message"
+提交所有修改状态:|git commit -a
+
+##4)仓库文件修改
+|功能|代码|
+|:------------------|:-----------------------------------------------------|
+远程仓库重命名:|git remote add KeepNote https://github.com/elwangeij/KeepNote.git
+拉取仓库文件(检查是否需合并):|git pull KeepNote master
+上传到仓库:|git push KeepNote master
 
  
