@@ -1,0 +1,7 @@
+<center>This file  records errors occured during YOLO learning.</center>
+#Error
+###1) Error - CUDA Error: invalid device function Assertion `0' failed
+Solution:
+
+* check the CUDA Capability Major/Minor version number  
+- revise gpu-arch in Makefile and re-make  
